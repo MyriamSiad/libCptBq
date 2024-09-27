@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="banque.Banque">
-    <Position X="2" Y="6.5" Width="5.25" />
+    <Position X="7.75" Y="3.25" Width="5.25" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAEAAACAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAAAAAAEAABCAAAIAAhAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Banque.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="mesComptes" />
+      <Field Name="mesTypes" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="libCptBq.Compte">
@@ -15,6 +16,13 @@
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAEAEgAAEIAgAAAAAAgAgAAEAAAQCEAA=</HashCode>
       <FileName>Compte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libCptBq.Typee">
+    <Position X="14.75" Y="1.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAMAAAAAAAAIAAAAAAAAAAAAACAgAg=</HashCode>
+      <FileName>Type.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
